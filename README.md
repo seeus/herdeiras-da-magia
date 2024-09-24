@@ -1,5 +1,7 @@
-# o-misterio-da-caverna-das-vozes
-Jogo
+Jogo 2024.2
 
+Projeto do semestre 2024.2
 
-O jogo se baseia em uma jogo dentro de uma caverna na qual ha tres partes, voce podera jogar a partir de comandos de voz, o jogo consistera em dois jogadores sendo eles dois magos, que estaram em busca de um artefato lendario, que estara
+## Premissa 
+
+Em "O Mistério da Caverna das Vozes", você é um mago explorador em um labirinto cheio de enigmas, criaturas e vozes misteriosas. O objetivo é encontrar um artefato lendário, enquanto o ambiente muda conforme suas escolhas. Cada erro torna o labirinto mais perigoso, desafiando o jogador com puzzles e batalhas estratégicas. Inteligência e coragem são essenciais para sobreviver e alcançar o artefato.
