@@ -4,5 +4,5 @@ Projeto do semestre 2024.2
 
 ## Premissa 
 
-Em "O Mistério da Caverna das Vozes", você é um mago explorador em um labirinto cheio de enigmas, criaturas e vozes misteriosas. O objetivo é encontrar um artefato lendário, enquanto o ambiente muda conforme suas escolhas. Cada erro torna o labirinto mais perigoso, desafiando o jogador com puzzles e batalhas estratégicas. Inteligência e coragem são essenciais para sobreviver e alcançar o artefato. mago e sua fiel amiga
+Em 'O Mistério da Caverna das Vozes' é um jogo de suspense onde os jogadores assumem o papel de um mago explorador e da sua fiel amiga aventureira. Em uma caverna escura e cheia de armadilhas, os jogadores devem enfrentar enigmas e as misteriosas vozes que ecoam pela caverna. O objetivo é encontrar e coletar um artefato lendário, que guarda poderes antigos e perigosos. A cada escolha errada, a caverna vai se tornando mais complexa e perigosa, Inteligência e coragem são essenciais para sobreviver e alcançar o artefato, tomem cuidado jogadores!
 
