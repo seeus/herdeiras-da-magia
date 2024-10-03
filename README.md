@@ -43,16 +43,17 @@ Cada jogadora começa com 3 vidas. Ao perder todas as vidas, o jogador reinicia 
 ## Receita do jogo:
 Venda do jogo.
 
-DLCs Pagos
+DLCs Pagos:
 Expandir o universo do jogo com DLCs, garantindo que os jogadores mais dedicados tenham conteúdo novo para explorar, o que mantém o interesse vivo no longo prazo.
 DLCs devem ser lançados gradualmente, com intervalos de 3-6 meses após o lançamento inicial.
 
-Eventos e Desafios Temporários
+Eventos e Desafios Temporários:
 Criar eventos sazonais ou temáticos (como Halloween ou Natal) com recompensas exclusivas para jogadores que completarem desafios limitados no tempo.
 Esses eventos mantêm a base de jogadores ativa e podem incluir itens cosméticos vendidos exclusivamente durante o período do evento.
 
 
-Microtransações Cosméticas.Implementar compras dentro do jogo, mas apenas para itens cosméticos, como skins de personagens, aparências de cajados e efeitos especiais para magias.
+Microtransações Cosméticas:
+Implementar compras dentro do jogo, mas apenas para itens cosméticos, como skins de personagens, aparências de cajados e efeitos especiais para magias.
 
 Anuncio na versao gratuita. 
 
