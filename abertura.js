@@ -11,8 +11,9 @@ export default class abertura extends Phaser.Scene {
     this.add.image(400, 225, 'abertura')
       .setInteractive()
       .on('pointerdown', () => {
-      this.scene.stop('abertura')
-      this.scene.start('sala')
-    })
+        this.scene.stop('abertura')
+        this.scene.start('sala')
+      })
+
   }
 }
