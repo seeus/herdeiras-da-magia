@@ -6,6 +6,10 @@ Projeto do semestre 2024.2
 
 Em um dia comum no IFSC, duas alunas, Yavanna e Lyra, são sugadas para um misterioso cemitério mágico onde acabam sendo (transformadas em magas). Para reverterem a transformação e voltarem para casa, elas precisam explorar o cemitério e seus túmulos encantados, enfrentando criaturas místicas e resolvendo enigmas. O objetivo é coletar cinco objetos mágicos essenciais: uma poção, um livro de feitiços, uma espada encantada, um amuleto e uma chave mágica. Somente após reunirem todos os itens elas poderão escapar e retornar ao IFSC.Fiquem atentos jogadores!
 
+## Universo Ideal:
+O universo do jogo é inspirado em mitologias e histórias como o Rei Arthur, elementos de "Indiana Jones" e "A Múmia", além de contos de bruxas e magia. Cada local é desenhado para ser imersivo e único, com sua própria mitologia interna. A atmosfera alterna entre o sombrio e o místico, com uma mistura de puzzles intelectuais e desafios de combate.
+
+
 ## História ideal:
 Em um dia comum no IFSC, duas alunas decidiram explorar o campus e acabaram encontrando uma sala misteriosa escondida atrás do auditório. Curiosas, resolveram entrar. Lá dentro, descobriram diversos equipamentos antigos e estranhos, mas algo inesperado aconteceu: o chão de repente se abriu, revelando um buraco que as sugou para uma área desconhecida.
 As alunas caíram em um cemitério sombrio, sem ideia de onde estavam. Caminhando por entre os túmulos, se depararam com uma sepultura antiga marcada com o nome "MORGANA", uma maga lendária. Ao se aproximarem, a sepultura misteriosamente se abriu, e, sem resistir à curiosidade, elas entraram.
@@ -87,7 +91,8 @@ Altura: Baixinha, mas sua postura é imponente, com uma presença quase magnéti
 
 Personalidade e presença: Lyra é determinada e confiante, sempre com foco em sua missão. Sua presença é enérgica e carregada, indicando seu poder destrutivo.
 
-3. 
+3. Morgana tera o papel de maga que fara a abertura do jogo explicando a historia atual, fazendo com que o jogador entre no jogo sabendo a historio por tras, ela demostrara tambem sua historia como maga em um mundo adormecido, quando Lyra e Yavanna entram neste universo ela volta ao mundo presente...
+
 
 
 ## Jogo ideal (referencias):
