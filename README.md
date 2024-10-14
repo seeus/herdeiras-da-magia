@@ -104,7 +104,8 @@ Grimório das bruxas\
 A bruxa\
 A múmia\
 Indiana Jones\
-Shazam 
+Shazam\
+hollow knight
 
 
 
