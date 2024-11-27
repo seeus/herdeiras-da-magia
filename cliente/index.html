@@ -669,7 +669,29 @@ Qual é a resposta?
 Magnífico, jogador. Sua resposta ecoa com a sabedoria dos antigos: o vento, aquele que está sempre presente, invisível mas poderoso. Ele também esteve ao lado de Yavanna e Lyra, guiando-as em sua jornada, soprando segredos pelos túmulos e carregando a magia que permeia o cemitério. Agora, a escolha é sua: deseja encerrar esta aventura e levar as magas de volta ao seu destino?
 
 &gt;[[Sim, vamos finalizar a história.]]
-&gt;[[Não, quero explorar mais um pouco.]]</tw-passagedata><tw-passagedata pid="36" name="Lyra atravessa" tags="" position="1875,2200" size="100,100"></tw-passagedata><tw-passagedata pid="37" name="Não, quero explorar mais um pouco." tags="" position="1925,2350" size="100,100">Infelizmente, sua jornada termina por aqui. Mas cada fim é apenas um novo começo. Volte ao início, explore outros caminhos e descubra o que mais o destino reserva para você.
+&gt;[[Não, quero explorar mais um pouco.]]</tw-passagedata><tw-passagedata pid="36" name="Lyra atravessa" tags="" position="1850,2150" size="100,100">Lyra entra em conflito, mas Yavanna insiste:
+&quot;Você é ótima com enigmas! Sei que vai conseguir me trazer de volta. Confio em você, vai dar tudo certo!&quot; 
+
+Assim que Lyra atravessa o portal, a luz dourada se apaga, e o silêncio toma conta da sala. Yavanna olha em volta, agora sozinha, e sente o peso do desafio cair sobre ela.
+
+No IFSC, Lyra aparece no centro da biblioteca, ainda segurando a chave mágica. No entanto, algo está diferente: a chave agora está quebrada, e ao seu lado, uma estante antiga de livros começa a se mover por conta própria.
+
+Os livros se reorganizam, e um volume empoeirado é revelado. Lyra o abre e encontra uma única página, nela, um enigma.
+
+&quot;Para trazer sua amiga de volta, você deve responder:
+Sem asas voa,
+Sem voz uiva,
+Sem dentes morde,
+Sem boca murmura.&quot;
+
+Lyra lê a charada em voz alta, refletindo intensamente.
+
+Qual é a resposta?
+{text input for: &#39;vento&#39;}
+
+[[Magnifico]]
+
+</tw-passagedata><tw-passagedata pid="37" name="Não, quero explorar mais um pouco." tags="" position="1925,2350" size="100,100">Infelizmente, sua jornada termina por aqui. Mas cada fim é apenas um novo começo. Volte ao início, explore outros caminhos e descubra o que mais o destino reserva para você.
 
 {restart link, label: &quot;Volte para o princípio...&quot;}</tw-passagedata><tw-passagedata pid="38" name="Sim, vamos finalizar a história." tags="" position="1750,2350" size="100,100">No momento em que Yavanna diz a resposta, a chave em suas mãos se reconstrói magicamente. Uma rajada de vento atravessa a biblioteca, levantando livros e papéis. Um portal azul surge diante dela, mostrando Lyra no outro lado, sorrindo e esperando.
 
@@ -682,7 +704,7 @@ As duas decidem nunca mais explorar portas misteriosas, mas compartilham um olha
 
 &lt;a style=&quot;color: blue;&quot;&gt;FIM !!!!!&lt;/a&gt;
 
-&gt;[[Final Feliz]] </tw-passagedata><tw-passagedata pid="39" name="Ambas permanecem como guardiãs mágicas" tags="" position="1275,2075" size="100,100">As duas trocam um olhar firme e sorriem, sabendo que não podem se separar. Elas decidem permanecer no reino, aceitando o papel de guardiãs mágicas.
+&gt;[[Final Feliz]] </tw-passagedata><tw-passagedata pid="39" name="Ambas permanecem como guardiãs mágicas" tags="" position="1300,2100" size="100,100">As duas trocam um olhar firme e sorriem, sabendo que não podem se separar. Elas decidem permanecer no reino, aceitando o papel de guardiãs mágicas.
 
 &quot;Se este é o preço para proteger o que é mágico, então o aceitaremos juntas.&quot;
 
@@ -715,7 +737,7 @@ Do riso é a morte, é o fim da vida.&quot;
 
 Qual é a resposta?
 {text input for: &#39;Escuro&#39;}
-[[Outra resposta]]</tw-passagedata><tw-passagedata pid="42" name="O escuro" tags="" position="1250,2225" size="100,100">Assim que Yavanna pronuncia a resposta, o portal brilha intensamente. A voz retorna, agora com um tom de aprovação:
+[[Outra resposta]]</tw-passagedata><tw-passagedata pid="42" name="O escuro" tags="" position="1275,2225" size="100,100">Assim que Yavanna pronuncia a resposta, o portal brilha intensamente. A voz retorna, agora com um tom de aprovação:
 
 &quot;O escuro é tanto fim quanto início. Você trouxe luz para este reino esquecido. Vá, e leve a memória de sua amiga guardiã com você.&quot;
 
@@ -727,7 +749,17 @@ De volta ao mundo real, Yavanna promete nunca esquecer sua amiga. Ela se dedica 
 &lt;a style=&quot;color: blue;&quot;&gt;FIM !!!&lt;/a&gt;
 
 
-</tw-passagedata><tw-passagedata pid="43" name="Outra resposta" tags="" position="1325,2375" size="100,100">A escuridão envolve você, e o frio do desconhecido consome sua última esperança. Sua jornada chegou ao fim... desta vez.
+</tw-passagedata><tw-passagedata pid="43" name="Outra resposta" tags="" position="1300,2375" size="100,100">[if escuro == &#39;escuro&#39;]
+A escuridão envolve você, e o frio do desconhecido consome sua última esperança. Sua jornada chegou ao fim... desta vez.
 
+[else]
+Que pena. [[Tente de novo...-&gt;Permanecer, aceitando o papel de magas e guardiãs deste reino esquecido.]]
+[continue]
 
-{restart link, label: &quot;Volte para o princípio...&quot;}</tw-passagedata></tw-storydata></html>
+{restart link, label: &quot;Volte para o princípio...&quot;}</tw-passagedata><tw-passagedata pid="44" name="Magnifico" tags="" position="1850,2525" size="100,100">[if vento == &#39;vento&#39;]
+Magnífico, jogador. Sua resposta ecoa com a sabedoria dos antigos: o vento, aquele que está sempre presente, invisível mas poderoso. Ele também esteve ao lado de Yavanna e Lyra, guiando-as em sua jornada, soprando segredos pelos túmulos e carregando a magia que permeia o cemitério. Agora, a escolha é sua: deseja encerrar esta aventura e levar as magas de volta ao seu destino?
+&gt;[[Sim, vamos finalizar a história.]]
+&gt;[[Não, quero explorar mais um pouco.]]
+[else]
+Que pena. [[Tente de novo...-&gt;Lyra atravessa]]
+[continue]</tw-passagedata></tw-storydata></html>
