@@ -229,8 +229,8 @@ ${i}`),b(i)}function $e(n,e=!1){return Ko(zo(n),An(),Pn(),e)}class Yo extends fe
 &gt;[[Voce esta pronto para esta jornada??]]</tw-passagedata><tw-passagedata pid="2" name="Quantidade de Jogadores" tags="" position="900,400" size="100,100">Iniciar partida com:
 
 &gt; [[1 jogador-&gt;Solo]]
-&gt; [[2 jogadores-&gt;Dupla]]</tw-passagedata><tw-passagedata pid="3" name="Capa" tags="" position="700,200" size="100,100">vento: undefined
-escuro:undefined
+&gt; [[2 jogadores-&gt;Dupla]]</tw-passagedata><tw-passagedata pid="3" name="Capa" tags="" position="700,200" size="100,100">vento: &quot;&quot;
+escuro: &quot;&quot;
 tempoDePartida: 10
 fimDeJogo: false
 produto: 27
@@ -744,7 +744,7 @@ De volta ao mundo real, Yavanna promete nunca esquecer sua amiga. Ela se dedica 
 
 
 
-&gt;[[Final Feliz]] </tw-passagedata><tw-passagedata pid="42" name="Resposta" tags="" position="1225,2275" size="100,100">[if Escuro == &#39;escuro&#39;]
+&gt;[[Final Feliz]] </tw-passagedata><tw-passagedata pid="42" name="Resposta" tags="" position="1225,2275" size="100,100">[if Escuro.toLowerCase() == &#39;escuro&#39;]
 A escuridão envolve você, e o frio do desconhecido consome sua última esperança. Sua jornada chegou ao fim... desta vez.
 &gt; [[O escuro]]
 [else]
@@ -752,7 +752,7 @@ Que pena.
 &gt; {restart link, label: &quot;Volte para o princípio...&quot;}
 [continue]
 
-</tw-passagedata><tw-passagedata pid="43" name="Magnifico" tags="" position="1850,2525" size="100,100">[if vento == &#39;vento&#39;]
+</tw-passagedata><tw-passagedata pid="43" name="Magnifico" tags="" position="1850,2525" size="100,100">[if vento.toLowerCase() == &#39;vento&#39;]
 Magnífico, jogador. Sua resposta ecoa com a sabedoria dos antigos: o vento, aquele que está sempre presente, invisível mas poderoso. Ele também esteve ao lado de Yavanna e Lyra, guiando-as em sua jornada, soprando segredos pelos túmulos e carregando a magia que permeia o cemitério. Agora, a escolha é sua: deseja encerrar esta aventura e levar as magas de volta ao seu destino?
 &gt;[[Sim, vamos finalizar a história.]]
 &gt;[[Não, quero explorar mais um pouco.]]
