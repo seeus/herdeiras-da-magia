@@ -455,8 +455,14 @@ setup.loadScript(&#39;https://accounts.google.com/gsi/client&#39;, () =&gt; {
         fetch(req)
           .then((response) =&gt; {
             if (response.ok) {
+              alert(&quot;Crédito realizado com sucesso!&quot;)
               console.log(response.status)
             } else {
+              if (response.status == 429){
+                alert(&quot;Falha: operação duplicada.&quot;)
+              } else {
+                alert(&quot;Erro ao realizar operação de crédito.&quot;)
+              }
               console.error(response)
             }
           }
@@ -470,9 +476,7 @@ setup.loadScript(&#39;https://accounts.google.com/gsi/client&#39;, () =&gt; {
       google.accounts.id.prompt()
     }
   })
-})
-[continued]0
-,333333</tw-passagedata><tw-passagedata pid="11" name="Final Triste" tags="" position="1475,625" size="100,100">Fim de Jogo!
+})</tw-passagedata><tw-passagedata pid="11" name="Final Triste" tags="" position="1475,625" size="100,100">Fim de Jogo!
 
 {restart link, label: &#39;Jogar de novo!&#39;}
 </tw-passagedata><tw-passagedata pid="12" name="Voce esta pronto para esta jornada??" tags="" position="700,525" size="100,100">&lt;a style=&quot;color: blue;&quot;&gt;Preparadas para a aventura?&lt;/a&gt;
